@@ -1,20 +1,20 @@
 <distributionManagement>
     <repository>
         <id>maven-releases</id>
-        <name>nexus maven-releases</name>
+        <name>YonShuai's nexus maven-releases</name>
         <url>http://193.112.46.75/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
         <id>maven-snapshots</id>
-        <name>nexus maven-snapshots</name>
+        <name>YonShuai's nexus maven-snapshots</name>
         <url>http://193.112.46.75/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
 
 <repositories>
     <repository>
-        <id>nexus</id>
-        <name>Nexus Repository</name>
+        <id>maven-public</id>
+        <name>YonShuai's Nexus Repository</name>
         <url>http://193.112.46.75/repository/maven-public/</url>
         <snapshots>
             <enabled>true</enabled>
@@ -27,8 +27,8 @@
 
 <pluginRepositories>
     <pluginRepository>
-        <id>nexus</id>
-        <name>Nexus Plugin Repository</name>
+        <id>maven-public</id>
+        <name>YonShuai's Nexus Plugin Repository</name>
         <url>http://193.112.46.75/repository/maven-public/</url>
         <snapshots>
             <enabled>true</enabled>
